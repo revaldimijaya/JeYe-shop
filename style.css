@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+.header{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    
+}
+
+.first-header{
+    max-width: 1000px;
+    margin: auto;
+    padding: 8px; 
+    display: flex; 
+    justify-content: space-between; 
+    
+}
+
+.second-header{
+    margin: auto;
+    display: flex; 
+    justify-content: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    max-width: 800px;
+}
+
+.logo{
+    width: 10rem; 
+    cursor: pointer;
+}
+
+.register-header{
+    display: flex;  align-items: center; width: 15%;
+}
+
+.outer-container{
+    display: flex; width: 100%; justify-content: center; margin-top: 2rem; 
+}
+
+.container{
+    overflow: hidden; display: flex; flex-direction: column; max-width: 800px; margin: auto; margin-top: 2rem; margin-bottom: 2rem;
+}
+
+.image-banner{
+    display: flex; align-items: flex-start; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); margin: 8px;
+}
+
+.wrapper{
+    margin: auto; width: 100%;
+}
+
+.cards-wrap{
+    display: flex; flex-wrap: wrap;
+}
+
+.card-item{
+    margin: 12px auto;
+    
+}
+.card-inner{
+    margin: 0px 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 8px;
+    cursor: pointer;
+}
+
+.card-price{
+    margin-top: 8px; color: green;
+}
+
+.card-title{
+    margin-top: 8px;
+}
+
+.footer{
+    max-width: 1000px; margin: auto; margin-top: 1rem; margin-bottom: 1rem;
+}
+
+.footer-inner{
+    display: flex; justify-content: space-between; 
+}
+
+.footer-description p{
+    margin: 6px;
+}
+.footer-buyer p{
+    margin: 6px;
+}
+.footer-seller p{
+    margin: 6px;
+}
+.social-media-text p{
+    margin: 6px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (max-width: 800px){
+    .image-banner{
+        display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); margin: 8px;
+    }
+    #video{
+        justify-content: center;
+    }
+}
