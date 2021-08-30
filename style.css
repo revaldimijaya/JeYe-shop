@@ -13,7 +13,6 @@ p{
 }
 
 .first-header{
-    max-width: 1000px;
     margin: auto;
     padding: 8px; 
     display: flex; 
@@ -111,7 +110,7 @@ p{
 }
 
 .footer{
-    max-width: 1000px; margin: auto; margin-top: 1rem; margin-bottom: 1rem;
+    max-width: 800px; margin: auto; margin-top: 1rem; margin-bottom: 1rem;
 }
 
 .footer-inner{
