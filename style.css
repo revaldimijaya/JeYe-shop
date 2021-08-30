@@ -9,8 +9,7 @@ p{
 }
 
 .header{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
-    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);    
 }
 
 .first-header{
@@ -22,6 +21,36 @@ p{
     
 }
 
+.search-header{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-header input[type=text]{
+    padding: 12px 8px;
+    width: 500px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+
+}
+
+.search-header input[type=text]:hover,  input[type=text]:focus{
+    outline: none;
+}
+
+.search-header button{
+    padding: 12px;
+    border: 1px solid lightgray;
+    
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: absolute;
+    right: 0;
+    background: lightgray;
+    cursor: pointer;
+}
+
 .second-header{
     margin: auto;
     display: flex; 
@@ -30,6 +59,8 @@ p{
     padding: 8px 0;
     max-width: 800px;
 }
+
+
 
 .logo{
     width: 10rem; 
@@ -84,7 +115,7 @@ p{
 }
 
 .footer-inner{
-    display: flex; justify-content: space-between; 
+    display: flex; justify-content: space-around; 
 }
 
 .footer-description p{
